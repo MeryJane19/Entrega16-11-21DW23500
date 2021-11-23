@@ -1,0 +1,46 @@
+html {
+    height: 100%;
+}
+body{
+    margin: 0;
+    padding: 0;
+    font-family:Arial, sans-serif;
+}
+header{
+    position: fixed;
+    width: 100%;
+    background-color: #9796DD
+}     
+nav ul{
+   display:flex; 
+   justify-content: space-evenly;
+}
+nav ul li{
+    display: inline;
+}
+.Logo{
+    margin: auto;
+    padding-top: 10%;
+    width: 25%;
+    height: auto;
+    display: block;
+}
+.Peter{
+    width: 28%;
+    height: auto;
+    position:relative;
+    top: 50%;
+    left: 70%;
+}
+.Mesa{
+    width: 10%;
+    height: auto;
+    position: relative;
+    right: 20%;
+}
+.Florero {
+    width: 7%;
+    height: auto;
+    position: relative;
+    right: 20%;
+}
