@@ -2,14 +2,15 @@ html {
     height: 100%;
 }
 body{
-    margin: 0;
-    padding: 0;
+    margin-top: 0%;
     font-family:Arial, sans-serif;
+    text-decoration: none;
 }
 header{
+    margin-top: 0%;
     position: fixed;
     width: 100%;
-    background-color: #9796DD
+    background-color: #9796DD;
 }     
 nav ul{
    display:flex; 
@@ -17,6 +18,41 @@ nav ul{
 }
 nav ul li{
     display: inline;
+}
+form {
+    width: 25%;
+    background-color: #9796DD;
+    margin: auto;
+    border-radius: 5%;
+    text-align: center;
+    display: block;
+}
+input {
+    border-radius: 5%;
+}
+textarea {
+    background-color: #F0CFA9;
+    border-radius: 5%;
+} 
+h1 {
+    position: relative;
+    display: block;
+    text-align: center;
+    padding: 6%;
+    color: #F5A445;  
+}
+p {
+    color: #855B2B;
+    font size: 100px;
+    display: block;
+    padding: 5%;
+}
+.btn {
+    background-color: #C4C861;
+}
+.space {
+    padding: 3%;
+    background-color: #F0CFA9;
 }
 .Logo{
     margin: auto;
@@ -43,4 +79,21 @@ nav ul li{
     height: auto;
     position: relative;
     right: 20%;
+}
+.Estrellas{
+    width: 7%;
+    position: relative;
+}
+.Personal {
+    width: 20%;
+    position: relative;
+    padding-top: 10%;
+}
+.Carro {
+    width: 20%;
+    position: relative;
+    padding-top: 30%;
+}
+#text {
+    padding: 5%;
 }
