@@ -2,12 +2,13 @@ html {
     height: 100%;
 }
 body{
-    margin-top: 0%;
-    font-family:Arial, sans-serif;
+    margin: 0%;
+    padding: 0%;
+    font-family: 'Oswald', sans-serif;;
     text-decoration: none;
 }
 header{
-    margin-top: 0%;
+   margin-top: 0%;
     position: fixed;
     width: 100%;
     background-color: #9796DD;
@@ -18,6 +19,7 @@ nav ul{
 }
 nav ul li{
     display: inline;
+    color: white;
 }
 form {
     width: 25%;
@@ -39,13 +41,26 @@ h1 {
     display: block;
     text-align: center;
     padding: 6%;
-    color: #F5A445;  
+    color: #F5A445;
 }
 p {
     color: #855B2B;
-    font size: 100px;
     display: block;
     padding: 5%;
+}
+#section-img {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr;
+    height: 100%;
+    gap: 1em
+}
+#contenedor {
+display: grid;
+grid-template-columns: 2fr 2fr 2fr;
+grid-template-rows: 2fr 2fr 2fr;
+height: 100%;
+gap: 1em
 }
 .btn {
     background-color: #C4C861;
@@ -54,46 +69,64 @@ p {
     padding: 3%;
     background-color: #F0CFA9;
 }
-.Logo{
+.responsive-Logo{
     margin: auto;
-    padding-top: 10%;
-    width: 25%;
+    padding-top: 0%;
+    width: 50%;
+    max width: 100%;
     height: auto;
     display: block;
+    
 }
-.Peter{
-    width: 28%;
+.responsive-Peter{
+    width: 50%;
     height: auto;
+    max-width: 50%
     position:relative;
-    top: 50%;
-    left: 70%;
+    align-self: end;
+    /*top: 40%;*/
+    right: 70%;
 }
-.Mesa{
-    width: 10%;
+.responsive-Mesa{
+    width: 15%;
+    max-width: 15%;
     height: auto;
     position: relative;
-    right: 20%;
+  margin-bottom: 0%;
+  top: 40%;
+  right: 5%;
 }
-.Florero {
-    width: 7%;
+.responsive-Florero {
+    width: 9%;
+    max-width: 9%;
     height: auto;
     position: relative;
-    right: 20%;
+    top: 13%;
+    left: 7%;
 }
-.Estrellas{
-    width: 7%;
+.responsive-Estrellas{
+    width: 250px;
+    max-width: 250px;
+    height: auto;
+    /*max-width: 15%;*/
     position: relative;
+    top: 20%;
+    left: 5%;
+
 }
-.Personal {
-    width: 20%;
+.responsive-Personal {
+    width: 350px;
+    height: auto;
     position: relative;
-    padding-top: 10%;
+    top: 0%;
+    left: 20%;
 }
 .Carro {
     width: 20%;
     position: relative;
     padding-top: 30%;
 }
-#text {
-    padding: 5%;
+.Quienes-Somos{
+text-align: center;
 }
+   
