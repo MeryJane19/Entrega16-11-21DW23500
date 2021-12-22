@@ -8,28 +8,72 @@ body{
 }
 header{
    margin-top: 0%;
-    position: fixed;
+   padding-top: 25px;
+    position: sticky;
     width: 100%;
-    background-color: #9796DD;
+    background-color: #855B2B;
+    height: 10%;
 }   
 nav ul{
     display:flex; 
     justify-content: space-evenly;
     text-decoration: none;
  }
- nav ul li{
+ nav ul li a{
     display: inline;
     color: white;
     font-size: 16px;
-    font-weight: 500;
-    padding-top: 3px;
+    padding-top: 5px;
     padding-bottom: 1px;
  }
+
  nav ul li :hover{
       color: white
  }
+ main {
+     width:100%;
+     height:auto;
+     margin: auto;
+     overflow: hidden;
+ }
+
+ #quienes {
+     min-height: 100vh;
+     position: relative;
+ }
+ video {
+     position: absolute;
+     top: 0;
+     left: 0;
+     width: 100%;
+     height: 100%;
+     object-fit: cover;
+ }
+
+ .capa {
+     position: absolute;
+     top: 0;
+     left: 0;
+     width: 100%;
+     height: 100%;
+     background-color:#855B2B;
+     opacity: 0.5;
+     mix-blend-mode: overlay;
+ }
+.somos {
+    pading-top: 350px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 60%;
+    margin: auto;
+    position: relative;
+    z-index: 2;
+}
+
 footer{
-    background-color: #D3D686;
+     background-color: #E19F51;
 }
 
 form {
@@ -49,23 +93,23 @@ textarea {
     border-radius: 5%;
 } 
 h1 {
-    position: relative;
     display: block;
     text-align: center;
     padding: 6%;
-    color: #F5A445;
+    color: white;
 }
 span {
     position: relative;
     display: block;
     text-align: center;
     padding: 0%;
-    color: #F5A445;*/
+    color: white;
 }
 p {
-    color: #855B2B;
+    color: white;
     display: block;
     padding: 5%;
+    font-size: 20px;
 }
 article{
     width: auto;
@@ -75,23 +119,8 @@ article{
 }
 article:hover {
     height: 900px; width: 900px;
-    /*max-height: 900px;*/
 } 
 
-#section-img {
-    display: grid;
-    grid-template-columns: 1fr 1fr 1fr;
-    grid-template-rows: 1fr 1fr 1fr;
-    height: 100%;
-    gap: 1em
-}
-#contenedor {
-display: grid;
-grid-template-columns: 2fr 2fr 2fr;
-grid-template-rows: 2fr 2fr 2fr;
-height: 100%;
-gap: 1em
-}
 .btn {
     background-color: #C4C861;
 }
@@ -100,62 +129,12 @@ gap: 1em
     background-color: #F0CFA9;
 }
 .responsive-Logo{
-    margin: auto;
-    padding-top: 0%;
-    width: 50%;
-    max width: 100%;
-    height: auto;
-    display: block;
-    
+    bottom: 0%;
+    position: absolute;
+    width: auto;
+    height: 100%;   
 }
-.responsive-Peter{
-    width: 50%;
-    height: auto;
-    max-width: 50%
-    position:relative;
-    align-self: end;
-    top: 40%;
-    right: 80%;
-}
-.responsive-Mesa{
-    width: 15%;
-    max-width: 15%;
-    height: auto;
-    position: relative;
-  margin-bottom: 0%;
-  top: 45%;
-  right: 5%;
-}
-.responsive-Florero {
-    width: 9%;
-    max-width: 9%;
-    height: auto;
-    position: relative;
-    top: 13%;
-    left: 7%;
-}
-.responsive-Estrellas{
-    width: 250px;
-    max-width: 250px;
-    height: auto;
-    /*max-width: 15%;*/
-    position: relative;
-    top: 20%;
-    left: 5%;
 
-}
-.responsive-Personal {
-    width: 350px;
-    height: auto;
-    position: relative;
-    top: 0%;
-    left: 20%;
-}
-.Carro {
-    width: 15%;
-    position: relative;
-    padding-top: 30%;
-}
 .Quienes-Somos{
 text-align: center;
 }
